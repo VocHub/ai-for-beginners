@@ -1,0 +1,112 @@
+= Introduction to Machine Learning
+Jeff Thuong
+:revealjsdir: cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.0
+:imagesdir: img
+:icons: font
+:title-slide-transition: zoom
+:title-slide-transition-speed: fast
+:revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@3.9.2
+:revealjs_history: true
+:revealjs_parallaxBackgroundImage: img/background.jpg
+:revealjs_parallaxBackgroundSize: 2100px 1100px
+
+
+== What is this?
+image::a_car.svg[Static,60%]
+
+=== It's a car
+
+But how do you know?
+
+image::a_car.svg[Static,20%]
+
+\... it's a new image that you have never seen before!
+
+== How Kids Learn new words
+
+Let's follow the steps of a baby!
+
+=== Learning New Words
+image::learning_story_step1.svg[Static,80%]
+
+=== Trying to create a model
+image::learning_story_step2.svg[Static,80%]
+
+=== Improving the model
+image::learning_story_step3.svg[Static,80%]
+
+=== Checking the model
+image::learning_story_step4a.svg[Static,80%]
+
+=== Checking the model
+image::learning_story_step4b.svg[Static,80%]
+
+=== Improving the model again
+image::learning_story_step3.svg[Static,80%]
+
+=== Checking the model again
+image::learning_story_step4b.svg[Static,80%]
+
+=== Kid knows what a car is!
+image::learning_story_step5.svg[Static,60%]
+
+
+== How Computers learn "words"
+
+This is the same for Computers!
+
+=== Learning New Words
+image::machine_learning_step1.svg[Static,80%]
+
+=== Trying to create a model
+image::machine_learning_step2.svg[Static,80%]
+
+=== Improving the model
+image::machine_learning_step3.svg[Static,80%]
+
+=== Checking the model
+image::machine_learning_step4.svg[Static,80%]
+
+=== Improving the model again
+image::machine_learning_step3.svg[Static,80%]
+
+=== Checking the model again
+image::machine_learning_step4.svg[Static,80%]
+
+=== Computer knows what a car is!
+image::machine_learning_step5.svg[Static,60%]
+
+
+== How to show pictures to computers
+image::machine_learning_feeding_datasets.svg[Static,60%]
+
+=== How many pictures?
+
+[cols="30h,~,~"]
+|===
+|Database | Training Set | Validation Set
+
+a|image::https://i0.wp.com/www.adeveloperdiary.com/wp-content/uploads/2019/09/How-to-prepare-Imagenet-dataset-for-Image-Classification-adeveloperdiary.com-7.jpg[Static,link=https://www.image-net.org/]
+|1 281 167
+|50 000
+
+a|image::https://cocodataset.org/images/coco-logo.png[Static,link=https://cocodataset.org/]
+|118 000
+|5 000
+|===
+
+Actually, ImageNet has *14 millions* pictures!!
+
+== How does it learn exactly
+
+*Example*: How to recognize the number 9?
+
+image::9_to_9.svg[Static,50%]
+
+=== An image is cut into pieces
+
+image::bits_of_numbers.png[Static,60%]
+
+=== Neural networks learn from the pieces
+
+image::neural_9_to_9.png[Static,70%, link=https://www.youtube.com/watch?v=aircAruvnKk]
